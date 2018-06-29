@@ -37,7 +37,7 @@ namespace Kata04.DataMunging.Tests.Data
             var temperature = TemperatureReader.ReadTemperature("97.1*");
 
             //Assert
-            temperature.Should().Be(99.1);
+            temperature.Should().Be(97.1);
         }
     }
 }
